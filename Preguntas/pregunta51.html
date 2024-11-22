@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 51</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        En un diagrama de flujo, ¿qué figura geométrica se utiliza para representar una decisión o condición?
+        </label>
+        <select id="nombre">
+            <option value="a">Circulo</option>
+            <option value="b">Rectangulo</option>
+            <option value="c">Triangulo</option>
+            <option value="d">Rombo</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta51()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

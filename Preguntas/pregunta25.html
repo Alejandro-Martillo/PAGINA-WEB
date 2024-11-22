@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 25</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Qué palabra clave se utiliza para devolver un valor en una función con retorno en PSeInt?
+        </label>
+        <select id="nombre">
+            <option value="a">Devuelve</option>
+            <option value="b">Retorna</option>
+            <option value="c">Variable=</option>
+            <option value="d">Salir</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta25()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 47</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de Problema</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="texto">Se necesita desarrollar una aplicación para matriculación en línea, de una institución educativa. Tomando en cuenta algunas características particulares.</label>
+        <img src="../../img/DIAGRAMA5.png" alt="">
+        <label for="texto">Particularidades:
+            <br>
+            Al costo total de la matrícula de un estudiante; se debe aplicar un impuesto de 15% adicional del subtotal generado.
+            <br>
+            Casos a Resolver:
+            <br>
+            ·       x.  El costo total de matrícula de un estudiante en período ordinario, quién ha seleccionado 1 materias presenciales, 2 materias a distancia y 4 talleres prácticos
+            <br>
+            ·       y. El costo total de matrícula de un estudiante en período extraordinario, quién ha seleccionado 2 materias presenciales, 2 materias a distancia y 4 talleres prácticos.
+            <br>
+            ·       z. El costo total de matrícula de un estudiante en período especial, quién ha seleccionado 5 materias presenciales, 3 materias a distancia y 5 talleres prácticos.
+            </label>
+        <select id="nombre">
+            <option value="a">x=2599, y=4163, z= 7705</option>
+            <option value="b">x=2700 y=4500, z= 7800</option>
+            <option value="c">x=3000 y=4000, z= 7000</option>
+            <option value="d">x=2852, y=4404, z= 7348</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta47()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

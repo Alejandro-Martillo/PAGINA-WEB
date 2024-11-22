@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 11</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Cuál es la forma correcta de definir una función que no devuelve un valor en Pseint?
+        </label>
+        <select id="nombre">
+            <option value="a">funcion nombreFuncion(par1, par2)</option>
+            <option value="b">proceso nombreFuncion(par1, par2)</option>Asignará el valor 0 a resultado</option>
+            <option value="c">procedimiento nombreFuncion(par1, par2)</option>
+            <option value="d">D funcion sin retorno nombreFuncion(par1, par2)</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta11()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

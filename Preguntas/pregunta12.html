@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 12</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Que realiza este codigo?
+        </label>
+        <label>
+            function SumaDivisores(num) {<br>
+                let suma = 0;<br>
+                for (let i = 1; i < num; i++) {<br>
+                    if (num % i === 0) {<br>
+                               suma += i;<br>
+                           }<br>
+                       }<br>
+              return suma;<br>
+                    }<br>
+              SumaDivisores(6);<br>
+             
+        </label>
+        <select id="nombre">
+            <option value="a">6</option>
+            <option value="b">5</option>
+            <option value="c">12</option>
+            <option value="d">3</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta12()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

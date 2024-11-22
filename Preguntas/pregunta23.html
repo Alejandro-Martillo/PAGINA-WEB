@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 23</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Qué se entiende por "mejora continua" en el contexto de desarrollo de software?
+        </label>
+        <select id="nombre">
+            <option value="a">Cambiar el lenguaje de programación regularmente.</option>
+            <option value="b">Añadir constantemente nuevas características al programa.</option>
+            <option value="c">Reestructurar el programa después de cada prueba.</option>
+            <option value="d">Realizar ajustes y mejoras periódicas para optimizar el código y satisfacer mejor los requisitos.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta23()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

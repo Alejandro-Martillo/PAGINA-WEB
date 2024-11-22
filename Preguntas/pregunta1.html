@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 1</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Tienda de Electrodomésticos</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">Electrodoméstico</label>
+        <select id="nombre">
+            <option value="televisor">Televisor</option>
+            <option value="refrigeradora">Refrigeradora</option>
+        </select>
+      </div>
+      <div>
+        <label for="unidades">Unidades</label>
+        <input type="text" id="unidades" placeholder="Ingresa las unidades">
+      </div>
+      <div>
+        <label for="precio">Precio Unitario</label>
+        <input type="text" id="precio" placeholder="Ingresa el precio">
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta1()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

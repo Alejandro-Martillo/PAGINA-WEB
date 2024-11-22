@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 45</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de Problema</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        En un restaurante, cada plato tiene un costo de $12. Si un cliente pide 3 platos, ¿cuál será el costo total de su pedido?
+        </label>
+        <select id="nombre">
+            <option value="a">24</option>
+            <option value="b">36</option>
+            <option value="c">30</option>
+            <option value="d">48</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta45()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

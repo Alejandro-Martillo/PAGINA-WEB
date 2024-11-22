@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 13</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Que realiza este codigo?
+        </label>
+        <label>
+         function imprimirCuadrados(n) {<br>
+                             for (let i = 1; i <= n; i++) {<br>
+                                 console.log(i * i);<br>
+                                     }<br>
+                         }<br>
+                         imprimirCuadrados(3);<br>
+        </label>
+        <select id="nombre">
+            <option value="a">Imprime el cuadrado de los números del 1 al 3.</option>
+            <option value="b">Imprime los números del 1 al 3.</option>
+            <option value="c">Imprime el cubo de los números del 1 al 3.</option>
+            <option value="d">Imprime los números pares del 1 al 3.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta13()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

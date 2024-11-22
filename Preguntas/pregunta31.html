@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 31</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        El siguiente algoritmo crea una funcion en JS que presente el mayor de los numeros de un arreglo de 10 elementos
+        <br>
+        1. function encontrarMayor() {  
+        <br>
+        2.   let numeros = [], mayor;  
+        <br>
+        3.   
+        <br>
+        4.   // Generar números aleatorios y almacenarlos en el arreglo  
+        <br>
+        5.   for (let i = 0; i < 10; i++) {  
+        <br>
+        6.      numeros[i] = Math.floor(Math.random() * 100) + 1;  
+        <br>
+        7.   }  
+        <br>
+        8.   mayor = numeros[1];  
+        <br>
+        9.   // Recorrer el arreglo para encontrar el mayor número  
+        <br>
+        10.  for (let i = 1; i < 10; i++) {  
+        <br>
+        11.    if (numeros[i] > mayor) {  
+        <br>
+        12.      mayor = numeros[i];  
+        <br>
+        13.    }  
+        <br>
+        14.  }  
+        <br>
+        15.  // Mostrar los resultados  
+        <br>
+        16.  console.log("Números generados: ", numeros);  
+        <br>
+        17.  console.log("El mayor número es: ", mayor);  
+        <br>
+        18. }          
+        </label>
+        <select id="nombre">
+            <option value="a">Linea 11</option>
+            <option value="b">Linea 12</option>
+            <option value="c">Linea 10</option>
+            <option value="d">Linea 8</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta31()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

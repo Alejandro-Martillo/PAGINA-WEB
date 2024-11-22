@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 4</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de Codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            Inicio
+            <br>
+            Leer sm, antig
+            <br>
+            Si _____1_______ entonces
+            <br>
+                util = sm * 0.08
+            <br>
+            si no
+            <br>
+                Si ___________2__________ entonces
+            <br>
+                    util = sm * 0.10
+            <br>
+                si no
+            <br>
+            Si __________3___________ entonces
+            <br>
+                util = sm * 0.15
+            <br>
+            si no
+            <br>
+                Si _________4__________ entonces
+            <br>
+                    util = sm * 0.20
+            <br>
+                si no
+            <br>
+                    util = sm * 0.30
+            <br>
+                fin-si
+            <br>
+            fin-si
+            <br>
+                fin-si
+            <br>
+            fin-si
+            <br>
+            Imprimir util
+            <br>
+            Fin
+           </label>
+           <table>
+            <tr>
+                <th>A</th>
+                <td>antig < 1 </td>
+            </tr>
+            <tr>
+                <th>B</th>
+                <td>(antig >= 1) and (antig < 2)</td>
+            </tr>
+            <tr>
+                <th>C</th>
+                <td>(antig >= 5) and (antig < 10)</td>
+            </tr>
+            <tr>
+                <th>D</th>
+                <td>(antig >= 2) and (antig < 5)</td>
+            </tr>
+           </table>
+           <select id="nombre">
+                <option value="a">1A, 2B, 3D, 4C</option>
+                <option value="b">1B, 2C, 3A, 4D</option>
+                <option value="c">1A, 2D, 3B, 4A</option>
+                <option value="d">1B, 2C, 3D, 4A</option>
+            </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta4()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

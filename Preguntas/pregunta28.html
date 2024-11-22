@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 28</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            function fibonacci(n) {
+            <br>
+                let a = 0, b = 1, c;
+            <br>
+                if (n === 0) return a;
+            <br>
+                for (let i = 2; i <= n; i++) {
+            <br>
+                    c = a + b;
+            <br>
+                    a = b;
+            <br>
+                    b = c;
+            <br>
+                }
+            <br>
+                return b;
+            <br>
+            }
+            <br>
+            console.log(fibonacci(6));
+        </label>
+        <select id="nombre">
+            <option value="a">8</option>
+            <option value="b">13</option>
+            <option value="c">5</option>
+            <option value="d">21</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta28()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

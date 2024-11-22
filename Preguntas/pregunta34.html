@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 34</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        Dado el siguiente diagrama de flujo, siga la secuencia lógica de las instrucciones e indique cuál de las siguientes salidas es la correcta respecto a todos los valores que van tomando las variables: A, B, C.
+        <img src="../../img/DIAGRAMA4.png">         
+        </label>
+        <select id="nombre">
+            <option value="a">3 4 15 - 3 5 33 - 3 6 54 - 3 7 78</option>
+            <option value="b">3 4 15 - 4 5 33 - 5 6 54 - 6 7 77</option>
+            <option value="c">3 4 15 - 4 5 33 - 5 6 54 - 6 7 70</option>
+            <option value="d">3 4 15 - 3 5 33 - 3 6 53 - 3 7 77</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta34()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

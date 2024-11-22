@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 43</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de Codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            function contarRegresivamente(n) {
+            <br>
+                for (let i = n; i >= 1; i--) {
+            <br>
+                    console.log(i);
+            <br>
+                }
+            <br>
+            }
+            <br>
+            contarRegresivamente(4);
+        </label>
+        <select id="nombre">
+            <option value="a">4-3-2-1</option>
+            <option value="b">1-2-3-4</option>
+            <option value="c">1-2-3-4-5</option>
+            <option value="d">5-4-3-2-1</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta43()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 65</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="texto">
+            function contarHastaCinco() {
+            <br>
+                for (let i = 1; i <= 5; i++) {
+            <br>
+                    console.log(i);
+            <br>
+                }
+            <br>
+            }
+            <br>
+            contarHastaCinco();
+        </label>
+        <select id="nombre">
+            <option value="a">1-2-3-4-5</option>
+            <option value="b">0-1-2-3-4-5</option>
+            <option value="c">1-2-3-4-5-6</option>
+            <option value="d">1-2-3-4</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta65()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

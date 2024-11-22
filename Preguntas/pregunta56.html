@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 56</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            ¿Qué sucede si no se respetan las prioridades entre operadores lógicos en una expresión condicional?
+        </label>
+        <select id="nombre">
+            <option value="a">La expresión siempre dará como resultado "falso" en lugar de "verdadero".</option>
+            <option value="b">No afecta la evaluación, ya que los operadores tienen la misma prioridad.</option>
+            <option value="c">La expresión puede evaluarse incorrectamente, dando resultados inesperados.</option>
+            <option value="d">La expresión fallará y causará un error de ejecución.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta56()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>
+
+        
