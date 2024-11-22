@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 54</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            ¿Que dice este código?<br>
+            function sumaImpares(n) {<br>
+                let suma = 0;<br>
+                for (let i = 1; i <= n; i += 2) {<br>
+                    suma += i;<br>
+                }<br>
+                return suma;<br>
+            }<br>
+        </label>
+        <select id="nombre">
+            <option value="a">9</option>
+            <option value="b">15</option>
+            <option value="c">10</option>
+            <option value="d">6</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta54()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

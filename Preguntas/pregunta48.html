@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 48</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Cuál es la principal diferencia entre una estructura condicional simple y una estructura condicional compuesta?
+        </label>
+        <select id="nombre">
+            <option value="a">La estructura condicional compuesta es siempre más eficiente que la simple.</option>
+            <option value="b">Una estructura condicional compuesta combina múltiples condiciones mediante operadores lógicos, mientras que una condicional simple evalúa solo una condición.</option>
+            <option value="c">No hay diferencias significativas entre ambas estructuras.</option>
+            <option value="d">Una estructura condicional simple puede tener más de dos condiciones, mientras que la compuesta solo tiene una.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta48()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

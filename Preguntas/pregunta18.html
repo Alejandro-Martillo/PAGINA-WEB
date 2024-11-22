@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 18</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de diagrama de flujo</h1>
+    <form action="./simulador.html">
+      <div>
+          <label for="frase">Dado el siguiente diagrama de flujo, realice la prueba de escritorio y seleccione el enunciado correcto: </label>
+          <img src="../../img/DIAGRAMA1.png" alt="Descripción de la imagen" width="300">
+          <select id="nombre">
+              <option value="a">Diagrama de flujo que presenta el número menor y mayor</option>
+              <option value="b">Diagrama de flujo que presenta el número mayor y menor</option>
+              <option value="c">Diagrama de flujo que presenta el número menor</option>
+              <option value="d">Diagrama de flujo que presenta el número mayor</option>
+          </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta18()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

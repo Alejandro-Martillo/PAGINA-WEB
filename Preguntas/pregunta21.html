@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 21</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Qué se entiende por "corto circuito" en una evaluación de una expresión condicional compuesta con operadores lógicos?
+        </label>
+        <select id="nombre">
+            <option value="a">Es cuando la evaluación de una expresión condicional se detiene tan pronto como se determina el resultado, sin evaluar las demás condiciones.</option>
+            <option value="b">Es una técnica para optimizar el tiempo de ejecución en bucles.</option>
+            <option value="c">Es cuando se combinan operadores lógicos AND y OR en una misma expresión.</option>
+            <option value="d">Es el proceso de evaluar todas las condiciones en una expresión lógica independientemente del resultado de las primeras.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta21()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 53</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            ¿Cuál es la forma correcta de almacenar el resultado de una función con retorno?
+        </label>
+        <select id="nombre">
+            <option value="a">resultado <- nombreFuncion(par1, par2)</option>
+            <option value="b">resultado = nombreFuncion(par1, par2)</option>
+            <option value="c">ejecutar resultado=nombreFuncion(par1, par2)</option>
+            <option value="d">retornar resultado=nombreFuncion(par1, par2)</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta53()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 71</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="texto">
+        ¿Cuál es la diferencia principal entre un algoritmo iterativo y uno recursivo?
+        </label>
+        <select id="nombre">
+            <option value="a">Un algoritmo iterativo repite un bloque de código utilizando bucles, mientras que un algoritmo recursivo se llama a sí mismo para resolver subproblemas.</option>
+            <option value="b">Un algoritmo iterativo siempre es más eficiente que uno recursivo.</option>
+            <option value="c">Un algoritmo recursivo es más fácil de entender y programar que uno iterativo.</option>
+            <option value="d">Un algoritmo iterativo no puede resolver problemas complejos, mientras que uno recursivo sí.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta71()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

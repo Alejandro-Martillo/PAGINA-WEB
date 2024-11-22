@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 46</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Restaurante promociones</h1>
+    <form action="./simulador.html">
+        <div>
+            <label for="precio">Precio</label>
+            <input type="text" id="precio" placeholder="Ingrese el precio">
+        </div>
+      <div>
+        <label for="dia">Día de la Semana:</label>
+        <select id="dia">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miércoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sábado">Sábado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+      </div>
+      <div>
+        <label for="personas">Numero de personas</label>
+        <input type="text" id="personas" placeholder="Ingrese el numero de personas">
+      </div>
+      <div>
+        <label for="tarjeta">Pagas con tarjeta?</label>
+        <select id="tarjeta">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta46()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

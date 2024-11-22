@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 66</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de problema</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="texto">
+        Un repartidor debe entregar un paquete en 3 diferentes ubicaciones. Si el tiempo promedio de entrega en cada ubicación es de 15 minutos, ¿cuánto tiempo total le tomará hacer las entregas?
+        </label>
+        <select id="nombre">
+            <option value="a">60 minutos</option>
+            <option value="b">45 minutos</option>
+            <option value="c">30 minutos</option>
+            <option value="d">50 minutos</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta66()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

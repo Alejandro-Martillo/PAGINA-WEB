@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 32</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            Analice las siguientes líneas de programa y escriba ¿cuál es la respuesta que genera m?
+        <img src="../../img/DIAGRAMA2.png" width="350" height="350">         
+        </label>
+        <select id="nombre">
+            <option value="a">2</option>
+            <option value="b">1</option>
+            <option value="c">3</option>
+            <option value="d">25</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta32()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

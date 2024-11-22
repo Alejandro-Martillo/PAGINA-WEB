@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 27</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            function verificarPrimo(num) {
+            <br>
+                if (num <= 1) return false;
+            <br> 
+                for (let i = 2; i < num; i++) {
+            <br>
+                    if (num % i === 0) return false;
+            <br>
+                }
+            <br>
+                return true;
+            <br>
+            }
+            <br>
+            console.log(verificarPrimo(7));
+        </label>
+        <select id="nombre">
+            <option value="a">True</option>
+            <option value="b">False</option>
+            <option value="c">Undefined</option>
+            <option value="d">Error de ejecucion</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta27()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

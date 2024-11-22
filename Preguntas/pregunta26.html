@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 26</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        ¿Cómo se define una función que muestra un mensaje en la consola sin devolver un valor?
+        </label>
+        <select id="nombre">
+            <option value="a">funcion MostrarMensaje(mensaje)</option>
+            <option value="b">procedimiento MostrarMensaje(mensaje)</option>
+            <option value="c">funcion sin retorno MostrarMensaje(mensaje)</option>
+            <option value="d">subproceso MostrarMensaje(mensaje)</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta26()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

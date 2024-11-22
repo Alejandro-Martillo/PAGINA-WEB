@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 33</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+        El siguiente algoritmo presenta la suma de los dígitos de cualquier número entero<br>
+        Indique la linea o lineas que hace el algoritmo no funcione correctamente
+        <img src="../../img/DIAGRAMA3.png" width="350" height="350"> 
+        <br>
+        </label>
+        <select id="nombre">
+            <option value="a">Linea 5,6</option>
+            <option value="b">Linea 4</option>
+            <option value="c">Linea 5</option>
+            <option value="d">Linea 6,7</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta33()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

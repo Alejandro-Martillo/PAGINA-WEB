@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 15</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Teoria</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="nombre">
+            ¿Cuál es la función principal de los paréntesis en una expresión lógica que contiene operadores AND y OR?
+        </label>
+        <select id="nombre">
+            <option value="a">Los paréntesis se utilizan para simplificar la expresión lógica eliminando operadores innecesarios.</option>
+            <option value="b">Los paréntesis permiten que la expresión se evalúe más rápidamente.</option>
+            <option value="c">Los paréntesis se utilizan para agrupar condiciones y establecer la prioridad en la evaluación de la expresión</option>
+            <option value="d">Los paréntesis solo se utilizan en bucles, no en expresiones condicionales.</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta15()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>

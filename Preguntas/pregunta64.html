@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregunta 64</title>
+  <link rel="stylesheet" href="../../css/preguntas.css">
+</head>
+<body>
+  <main>
+    <h1>Analisis de codigo</h1>
+    <form action="./simulador.html">
+      <div>
+        <label for="texto">
+            function sumaPares(n) {
+            <br>
+                let suma = 0;
+            <br>
+                for (let i = 0; i <= n; i++) {
+            <br>
+                    if (i % 2 === 0) {
+            <br>
+                        suma += i;
+            <br>
+                    }
+            <br>
+                }
+            <br>    
+                return suma;
+            <br>
+            }
+            <br>
+            let resultado = sumaPares(6);
+        </label>
+        <select id="nombre">
+            <option value="a">12</option>
+            <option value="b">18</option>
+            <option value="c">21</option>
+            <option value="d">6</option>
+        </select>
+      </div>
+      <div>
+        <label for="resp">Respuesta</label>
+        <textarea id="resp" placeholder="Aquí va la respuesta"></textarea>
+      </div>
+      <button onclick="pregunta64()" type="button">Aceptar</button>
+      <div class="card">
+        <a href="../simulador.html">Regresar</a>
+      </div>
+    </form>
+  </main>
+  <script src="../../js/simulador.js"></script>
+</body>
+</html>
